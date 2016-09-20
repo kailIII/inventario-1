@@ -1,0 +1,65 @@
+#_iP .itemImage > div.img img{  width: 100% !important; height: 100% !important; padding: 5px;}
+#_iP .itemImage  > span.delete{ cursor: pointer; position: absolute; top: 2px; right: 15px; display: none;}
+#_iP .itemImage:hover > div.img{ opacity: .7;}
+#_iP .itemImage:hover > span.delete{ display: block;}
+
+
+.content .context #category{
+	width: 100%;
+}
+.content .context #category .cat_{
+	margin:1%;
+	width:23%;
+	float: left;
+	overflow: hidden;
+}
+
+.content .context #category .imgCats{
+	width:100%;
+	height:100%;
+	background-color: #cecece;
+	overflow: hidden;
+	-webkit-transition: height .4s;
+}
+
+.content .context #category img.imgCats{
+	display: block;
+	margin:10% auto;
+	width:100%;
+	-webkit-transition: margin-top .4s;
+}
+.content .context #category .cat_ .imgCats > p{font-size: 12px; font-weight: bold; }
+
+.content .context #category .info{
+	width:100%;
+	height:0;
+	background-color: #233c80;
+	overflow: hidden;
+	-webkit-transition: height .4s;
+}
+.content .context #category p.titulo{
+	padding:5px;
+	font-size: 1.1em;
+	color:#d53a61;
+}
+.content .context #category p.adicional{
+	color:white;
+}
+.content .context #category .cat_ .info a{
+	margin-top:5%;
+	font-size: 1em;
+}
+.content .context #category a.link{
+	float:right;
+	padding:5% 15%;
+	background-color:#d53a61;
+	font-size: .8em;
+	color:white;
+	text-decoration: none;
+}
+.content .context #category .cat_:hover .info{
+	height:60px;
+}
+.content .context #category .cat_:hover img.imgCats{
+	margin-top:-18%;
+}

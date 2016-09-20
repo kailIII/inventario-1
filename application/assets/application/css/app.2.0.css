@@ -1,0 +1,231 @@
+/* Botones en la orillas derecha e izquierda */
+#leftmenu-trigger,
+#rightmenu-trigger{
+	border: none !important;
+	background-color: #FF8A00;
+}
+
+
+
+/* Navbar */
+.navbar-inverse {
+	background-color: #006230;
+}
+.navbar-brand{
+	background: none;
+	font-size: 20px;
+	font-family: 'Source Sans Pro','Segoe UI','Droid Sans',Tahoma,Arial,sans-serif;
+	width: auto;
+	color: #79C142 !important;
+	padding-top: 18px;
+	font-weight: 300;
+}
+.navbar-brand small{
+	color: #fff;
+	font-size: 15px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+
+/* Footer */
+footer{
+	border: 0;
+	background-color: #014F28;
+	height: 125px;
+    margin-top: -50px;
+}
+footer .footer-escudo{
+	background: url("../img/ui/escudo.png") no-repeat top left;
+    width: 80px;
+    height: 105px;
+}
+footer li{
+	color: #ffffff;
+}
+footer address{
+	margin-top: 10px;
+}
+footer button{
+	background-color: #FF8A00 !important;
+	border: 0 !important;
+	color: #ffffff !important;
+	margin-top: 10px;
+}
+
+/* Toolbar */
+.toolbar li,
+.toolbar li a{
+	border: 0 !important;
+	color: #ffffff !important;
+}
+.toolbar li > a:hover,
+.toolbar .open > a{
+	background-color: #014F28 !important;
+}
+.username{
+	color: #fff !important;
+}
+
+/* Toolbar */
+.toolbar .dropdown-menu a,
+.toolbar .dropdown-menu a:hover{
+	color: #fff !important;
+}
+
+
+/* Userinfo, Messeges */
+.dropdown-menu.userinfo,
+.dropdown-menu.messeges,
+.dropdown-menu.notifications{
+	background-color: #014F28;
+    border: 0;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+.dropdown-menu.userinfo li ul li a:hover,
+.dropdown-menu.userinfo li ul li a:active,
+.dropdown-menu.notifications li > a.active,
+.dropdown-menu.messeges li > a.active,
+.dropdown-menu.notifications li > a:hover,
+.dropdown-menu.messeges li > a:hover{
+	background-color: #5FA828 !important;
+	color: #fff !important;
+}
+.dropdown-menu.messeges li a .time,
+.dropdown-menu.messeges li a .msg{
+	color: #79C142;
+}
+.dropdown-menu.messeges li a:hover .time,
+.dropdown-menu.messeges li a.active .time,
+.dropdown-menu.messeges li a:hover .msg,
+.dropdown-menu.messeges li a.active .msg,
+.dropdown-menu.notifications li a:hover .time,
+.dropdown-menu.notifications li a.active .time{
+	color: #ffffff;
+}
+.dropdown-menu.messeges li > span,
+.dropdown-menu.notifications li > span,
+.dropdown-menu.messeges li > span a,
+.dropdown-menu.notifications li > span a,
+.dropdown-menu.messeges li > span a:hover,
+.dropdown-menu.notifications li > span a:hover{
+	color: #79C142 !important;
+}
+
+
+/* Userinfo detalles */
+.dropdown-menu.userinfo li.username small{
+    color: #79C142 !important;
+}
+
+
+
+/* Page-container */
+#page-container{
+	background: url('../img/ui/bg.png') repeat #FFFFFF;
+}
+
+
+/* Page-leftbar */
+#page-leftbar{
+	background: url('../img/ui/bg.png') repeat #FFFFFF;
+	box-shadow: none;
+}
+
+/* Page-content */
+#page-content{
+	border-left: 1px dashed #D9D9D9;
+	box-shadow: none;
+}
+
+
+/* Search */
+#search .search-query{
+	background-color: #FFFFFF !important;
+    color: #888888 !important;
+    padding-left: 50px !important;
+    box-shadow: none !important;
+}
+#search button{
+	background-color: #FF8A00 !important;
+    color: #FFFFFF !important;
+    left: 0 !important;
+    width: 40px;
+}
+#search button i{
+	color: #FFFFFF !important;
+    margin: 0;
+}
+#search button:hover i{
+	opacity: 1 !important;
+}
+body.collapse-leftbar #search a,
+body.collapse-leftbar #search.keep-open > a{
+	color: #ffffff !important;
+	background-color: #FF8A00 !important;
+}
+body.collapse-leftbar #search a i{
+	color: #ffffff !important;
+}
+body.collapse-leftbar #search:hover a{
+	background-color: #FF8A00 !important;
+}
+body.collapse-leftbar #search:hover a i{
+	opacity: 1;
+}
+body.collapse-leftbar #search.keep-open form{
+	left: 41px;
+}
+body.collapse-leftbar #search.keep-open form input{
+	border-top: 1px solid RGBA(0,0,0,0.2) !important;
+    border-bottom: 1px solid RGBA(0,0,0,0.2) !important;
+	border-right: 1px solid RGBA(0,0,0,0.2) !important;
+    padding-left: 10px !important;
+}
+
+
+/* Sidebar */
+#sidebar .divider{
+	background: none;
+	box-shadow: none;
+	border-top: 1px dashed #D9D9D9;
+}
+#sidebar li ul{
+	padding-top: 0;
+	background-color: #FF8A00;
+}
+
+#sidebar li ul li.active a,
+#sidebar li ul li a:hover{
+	background-color: #79C142;
+	color: #FFFFFF !important;
+}
+#sidebar li.open a i,
+#sidebar li a:hover i{
+	color: #FFFFFF;
+}
+#sidebar > li.active > a:after{
+	content: none;
+}
+#sidebar li.open a,
+#sidebar li.active a,
+#sidebar li a:hover{
+	box-shadow: none;
+	background-color: #FF8A00;
+	color: #FFFFFF;
+}
+
+.collapse-leftbar #sidebar li ul,
+.collapse-leftbar #sidebar li ul li a,
+.collapse-leftbar #sidebar li:hover{
+	background-color: #FF8A00 !important;
+}
+.collapse-leftbar #sidebar li ul li.active a,
+.collapse-leftbar #sidebar li ul li a:hover{
+	background-color: #79C142 !important;
+}
+.collapse-leftbar #sidebar li:hover a,
+.collapse-leftbar #sidebar li:hover a i{
+	color: #FFFFFF !important;
+}

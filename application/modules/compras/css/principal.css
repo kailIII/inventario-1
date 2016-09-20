@@ -1,0 +1,275 @@
+a{
+    color: #bf2222;
+    /*text-decoration: none;*/
+}
+a:hover{
+    text-decoration: underline;
+}
+.content .context{
+	margin: 0px auto;
+	width: 90%;
+
+}
+/***********************slider de articulos**************************/
+
+.content .context #slidewrap{
+	height: 270px;
+}
+.content .context #slideshow{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	/*margin-top: 20px;*/
+	margin-bottom: 20px;
+	position: relative;
+}
+.content .context #slideshow .thumb{
+	width:50%;
+	height: 100%;
+	position: relative;
+	float: left;
+	margin-right:2%;
+}
+.content .context #slideshow article{
+	float:left;
+	font-family: 'open-sans', Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	text-align:justify;
+	width: 48%;
+	color: #ffffff;
+	height: 270px;
+
+}
+.content .context #slideshow article h2{
+	font-family: 'Relaway',Arial.Helvetica,sans-serif;
+	font-size: 2rem;
+	text-align: left;
+}
+/*.content .context #slideshow article h2 a{
+    color: #bf2222;
+
+}*/
+.content .context #slideshow article .extract{
+	text-align: justify;
+	color: #000000;
+	font-size: 14px;
+}
+.content .context #slideshow article .date{
+	font-family: 'Relaway',Arial.Helvetica,sans-serif;
+	font-size:.8rem;
+	color: #777777;
+}
+/*.content .context #slideshow article .date a{
+    color: #bf2222;
+
+}*/
+.content .context #slideshow .slidesjs-pagination{
+	margin-top:2px;
+}
+.content .context #slideshow .slidesjs-pagination li{
+	background: #999999;
+	margin-right: 10px;
+	display:inline-block;
+}
+.content .context #slideshow .slidesjs-pagination li a{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	padding: 10px 20px;
+}
+.content .context #slideshow .slidesjs-pagination li a:hover{
+	background: #333333;
+}
+.content .context #slideshow .slidesjs-pagination li .active{
+	background: #333333;
+}
+.content .context #slideshow .slidesjs-navigation{
+	background: #000000;
+	color: #fff;
+	margin-top:2px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 13.5px 20px;
+	float: right;
+}
+/****************************lista de articulos************************************/
+.content .context #article_list{
+	width: 50%;
+	float: left;
+}
+.content .context #article_list article{
+	width:100%;
+	height:100%;
+	background-color: #E0E0E0;
+	margin-bottom: 40px;
+	margin-right: 2%;
+	border-bottom: 1px solid #999999;
+	overflow: hidden;	
+}
+.content .context #article_list article .thumb{
+	width: 90%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	margin: 4%;
+	/*float:left;*/
+	position: relative;
+	margin-bottom:2%;
+
+}
+.content .context #article_list article h2{
+	font-family: "Relaway", "open-sans",Arial,Helvetica,sans-serif;
+	font-size: 2rem;
+	font-weight: 300;
+}
+.content .context #article_list article h2 a{
+    color: #bf2222;
+	text-decoration: none;
+}
+.content .context #article_list article h2 a:hover{
+	/*text-decoration:none;*/
+	/*background: #333333;*/
+	color: #337ab7;
+}
+.content .context #article_list article .extract{
+	font-size: 1.3rem;
+	/*margin-bottom: 1%;*/
+	text-align: justify;
+	/*font-size: 14px;*/
+	color: #000000;
+}
+.content .context #article_list article .date{
+	font-size: 1.2rem;
+	color: #777777;
+}
+
+/*social de los articulos*/
+.content .context #article_list article .social ul li {
+	display: inline-block;
+	float: left;
+}
+.content .context #article_list article .social ul li a {
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.content .context #article_list article .social ul li .fa-facebook-square {background:#3b5998;} 
+.content .context #article_list article .social ul li .fa-twitter-square {background: #00abf0;}
+.content .context #article_list article .social ul li .fa-google-plus-square {background: #d95232;}
+.content .context #article_list article .social ul li .fa-youtube-square {background: #cc181e;}
+.content .context #article_list article .social ul li .fa-pinterest-square {background: #ae181f;}
+.content .context #article_list article .social ul li .fa-envelope-square {background: #999999;}
+
+.content .context #article_list article .social ul li a:hover {
+	background: #000; 
+}
+/*************************segunda parte del content eventos o videos************************/
+.content .context #events{
+	width: 50%;
+	float: right;
+}
+.content .context #events div.articlesEvn{
+	width: 90%;
+	margin: 0 auto;
+}
+.content .context #events .articlesEvn article{
+	margin-bottom: 10px;
+}
+.content .context #events .articlesEvn article a{
+	/*width: 10%;*/
+}
+.content .context #events .articlesEvn article a .thumb{
+	width: 100%;
+	/*height: 231px;*/
+}
+.content .context #events .articlesEvn article .video{
+	width: 100%;
+	/*height: 231px;*/
+}
+/****************************post individuales************************************/
+.content .context #postSingle{
+	width: 100%;
+	float: left;
+}
+.content .context #postSingle article{
+	width:100%;
+	height:100%;
+	margin-bottom: 40px;
+	margin-right: 2%;
+	border-bottom: 1px solid #999999;
+	overflow: hidden;	
+}
+.content .context #postSingle article .thumb{
+	width: 30%;
+	height: 50%;
+	float:left;
+	margin-right: 4%;
+	margin-bottom:2%;
+
+}
+.content .context #postSingle article h2{
+	font-family: "Relaway", "open-sans",Arial,Helvetica,sans-serif;
+	font-size: 2rem;
+	font-weight: 300;
+}
+.content .context #postSingle article h2 a{
+    color: #bf2222;
+	text-decoration: none;
+}
+.content .context #postSingle article h2 a:hover{
+	color: #337ab7;
+}
+.content .context #postSingle article .extract{
+	/*margin-bottom: 1%;*/
+	text-align: justify;
+	/*font-size: 14px;*/
+	color: #000000;
+}
+.content .context #postSingle article .date{
+	font-size: 1.2rem;
+	color: #777777;
+}
+/*social de los articulos*/
+.content .context #postSingle article .social ul li {
+	display: inline-block;
+	float: left;
+}
+.content .context #postSingle article .social ul li a {
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+.content .context #postSingle article .social ul li .fa-facebook-square {background:#3b5998;} 
+.content .context #postSingle article .social ul li .fa-twitter-square {background: #00abf0;}
+.content .context #postSingle article .social ul li .fa-google-plus-square {background: #d95232;}
+.content .context #postSingle article .social ul li .fa-youtube-square {background: #cc181e;}
+.content .context #postSingle article .social ul li .fa-pinterest-square {background: #ae181f;}
+.content .context #postSingle article .social ul li .fa-envelope-square {background: #999999;}
+
+.content .context #postSingle article .social ul li a:hover {
+	background: #000; 
+}
+/********************Galerias de articulos**********************/
+.content .context .mygallery{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.content .context .mygallery ul.gallery li.mix a{
+	width: 10%;
+}
+.content .context .mygallery ul.gallery li.mix h4{
+	font-size: 14px;
+	text-align: left;
+	width: 80%;
+}
+.content .context .mygallery ul.gallery li.mix h6{
+	font-weight: bold;
+	font-size: 12px;
+	color: #6ccb24;
+}

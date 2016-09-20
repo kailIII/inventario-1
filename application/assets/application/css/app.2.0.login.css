@@ -1,0 +1,56 @@
+.focusedform {
+	background: url('../img/ui/bg.png') repeat top left #FFFFFF;
+}
+
+
+
+.login-brand{
+	display: block;
+	color: #79C142;
+	text-decoration: none;
+	font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-brand small{
+	color: #FF8A00;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.login-brand:hover,
+.login-brand:hover small{
+	color: #79C142;
+	text-decoration: none;
+}
+
+
+.panel-primary{
+	border: 0 !important;
+	border-radius: 0 !important;
+}
+.panel-primary .panel-body{
+	border-left: 0 !important;
+	border-bottom: 0 !important;
+	border-right: 0 !important;
+	border-top:2px solid #FF8A00;
+}
+.panel-primary .panel-footer{
+	background-color: #006230 !important;
+	border: 0 !important;
+}
+
+.form-control:focus{
+	border-color: #79C142;
+}
+
+.btn-primary{
+	background-color: #FF8A00;
+}
+.btn-primary:hover{
+	background-color: #FF6600;
+}
+.btn-link,
+.btn-link:hover{
+	color: #FFFFFF;
+}

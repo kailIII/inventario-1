@@ -1,0 +1,21 @@
+Options FollowSymLinks
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+	
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?/$1 [L]
+
+    # redireccionar un domicio a un carpeta en especifico
+	#RewriteCond %{HTTP_HOST} ^mireino\.com$ [OR]
+	#RewriteCond %{HTTP_HOST} ^www\.mireino\.com$
+	#RewriteCond %{REQUEST_URI} !^/encuestas/
+	#RewriteRule (.*) /encuestas/$1 [L]    
+	
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    ErrorDocument 404 /index.php
+</IfModule>
+ 

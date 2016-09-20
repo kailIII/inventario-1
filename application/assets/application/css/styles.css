@@ -1,0 +1,502 @@
+
+/*****Estilos Generales****/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header, #main, footer{
+	width: 100%;
+}
+header{
+    height: 90px;
+
+}
+header #logo {
+	width: 24%;
+    float: left;
+    height: 100%;
+}
+header #logo ._l_i{
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+header #logo ._l_i a{
+
+}
+header #logo ._l_i a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header #logo ._l_t{
+    width: 65%;
+    float: left;
+}
+header #logo ._l_t .theme{
+	width: 100%;
+	font-size: 1.5rem;
+}
+header #logo ._l_t .theme a{
+	color: #000;
+    font-family: "Courier New" Times, serif;
+    font-weight: bold;
+    letter-spacing:-.5px;
+    font-variant: small-caps;
+
+}
+header #logo ._l_t .theme a:focus{
+	text-decoration: none;
+	color: #000;
+}
+header #logo ._l_t .theme a:hover{
+	color: #bf7777;
+	text-decoration: none;
+}
+header #logo ._l_t .descr{
+	width: 100%;
+    color: #000000;
+	font-size: 1.6rem;
+    letter-spacing:-.5px;
+    line-height: .8;
+	-webkit-perspective: 500px;
+  	-webkit-transform: translateZ(200px);
+}
+/********************************Registro********************************/
+header > #userheader{
+    width: 15%;
+    float: left;
+    text-align: center;
+    height: 100%;
+    background: url('../img/ui/bg.png') repeat #FFFFFF;
+
+    /*background-color: #C61A28;*/
+    position: relative;
+}
+header > #userheader >.registration{
+    padding-top: 16px;
+    width: 100%;
+}
+header > #userheader > span{
+    font-size: 10px !important;
+    color: #fff;
+
+}
+
+/********************************social de cabecera********************************/
+header > .social {
+    width: 15%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background: #FF8A00;
+    /*background-color: #C61A28;*/
+}
+header > .social .input-group{
+    margin-right: 10px;
+}
+header > .social .s_ {
+    margin-top: 5%;
+    list-style: none;
+    padding: 0;
+
+}
+header > .social ul li {
+    display: inline-block;
+    float: left;
+}
+header > .social ul li a {
+    color:#fff;
+    padding-left: 8px;
+    text-decoration: none !important;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+/*
+header > .social .fa-facebook-square {background:#3b5998;}
+header > .social .fa-twitter-square {background: #00abf0;}
+header > .social .fa-google-plus-square {background: #d95232;}
+header > .social .fa-youtube-square {background: #cc181e;}
+header > .social .fa-pinterest-square {background: #ae181f;}
+header > .social .fa-envelope-square {background: #999999;}*/
+
+header > .social ul li a i:hover {
+    color: #000;
+}
+/************************************************************** NAV ***********************************/
+header nav {
+    width: 60%;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    height: 100%;
+    /*background-color: #C61A28;*/
+    background: url('../img/ui/bg.png') repeat #FFFFFF;
+
+    border-radius: 5px 0px 0px 5px;
+}
+ header nav ul {
+    list-style:none;
+}
+ header nav > ul{
+    width: 100%;
+}
+ header nav > ul li {
+    display:table-cell;
+    color:#fff;
+}
+ header nav > ul li a:hover {
+    text-decoration: none !important;
+    color: white;
+}
+
+ /*entramos directamente al a para poder esconer el span, esto soluciono mi problema*/
+ header nav > ul > li > a{
+    overflow: hidden;
+ }
+ header nav > ul > li > a {
+    color:#3f444c;
+    font-weight: bold;
+    display:block;
+    line-height:30px;
+    padding:30px;
+    position: relative;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+ 
+ /*header nav > ul > li > a span {
+    background-color: rgb(22,145,190);
+    display:block;
+    width:100%;
+    left:0;
+    position:absolute;
+    top:-80px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}*/
+header nav > ul > li:first-child > a{
+    width: 100%;
+    position: relative;
+    background: #FF8A00;
+ }
+header nav > ul > li:first-child > a > img{
+    width: 100%;
+    margin-left: -30px;
+    position: absolute;
+    top: 0px;
+    float: left;
+}
+ header nav > ul > li > a span .icon {
+    display:block;
+    line-height:50px;
+    margin:0px auto;
+}
+ header nav > ul > li > a:hover {
+    /*background: #bf7777;*/
+    background: #FF8A00;
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+ }
+header nav > ul > li > a span{
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+header nav > ul > li:first-child > ul {
+    margin-top: -1px;
+}
+
+header nav > ul > li > ul {
+    clear: both;
+    display:block;
+    position:absolute;
+    height:0%;
+    background: #2ECC40;
+    border-radius: 0px 0px 5px 5px;
+    /*background-color: rgba(1,1,1, .9);*/
+    overflow:hidden;
+    z-index: 900;
+}
+ /*entramos directamente al a para poder esconer el span, esto soluciono mi problema*/
+ /*header nav > ul > li > a{
+    overflow: hidden;
+ }*/
+header nav > ul > li > ul > li ul {
+    clear: both;
+    display:block;
+    position:absolute;
+    /*left:0;*/
+    /*right:0;*/
+    height:0%;
+    /*background-color: rgba(1,1,1, .9);*/
+    background: #2F4F4F;
+    border-radius: 5px;
+    overflow:hidden;
+    z-index: 200;
+}
+ header nav > ul > li:hover > ul{
+    width: auto;
+    height: auto;
+    overflow: inherit;
+    display: block;
+    clear: both !important;
+    z-index: 200;
+ }
+ header nav > ul > li > ul li:hover > ul{
+    width: auto;
+    height: auto;
+    overflow: inherit;
+    display: block;
+    clear: both !important;
+    z-index: 200;
+ } 
+/*header nav > ul > li ul li {
+    width: auto;
+    height: 100%;
+    padding-top: 10px;
+    border-right: 1px solid #fff;
+}*/
+header nav > ul > li ul li {
+    width: auto;
+    height: 100%;
+    padding-top: 10px;
+    border-right: 1px solid #fff;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px 10px 10px 0px;
+}
+header nav > ul > li > ul > li ul li {
+    border-top:1px solid #fff;
+
+}
+header nav > ul > li ul li:hover {
+    /*height: auto;*/
+    background-color: #0074D9;
+    /*border:1px solid #777777;*/
+    /*background-color: #778899;*/
+    /*background-color: rgba(1,0,0, .7);*/
+    /*border-radius: 5px;*/
+    /*opacity: .2;*/
+}
+header nav > ul > li > ul li a {
+    color:#fff;
+    font-size: 2rem;
+    font: sans-serif;
+    /*font-weight: bold;*/
+    padding: 10px;
+}
+header nav > ul > li > ul li a:hover {
+    /*background:#5da5a2;*/
+    /*word-wrap: break-word;*/
+}
+
+/***************************************** body ************************************/
+#main{
+    font-size: 12pt;
+    font-family: "open sams", Arial,Helvetica, sans-serif;
+    margin-top: 20px;
+}
+/****************************************** CONTAINER ***************************/
+#main #mainContainer{
+    width: 100%;
+}
+#main #mainContainer .c_l{
+    width: 18%;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+#main #mainContainer .content{
+    width: 80%;
+    float: left;
+    /*border-left: 20px solid #FF8C00;
+    border-radius: 50px ;*/
+
+}
+
+/*********************************************** ASIDE *****************************/
+#main #mainContainer aside{
+    width: 30%;
+	float: right;
+}
+/************************************************ FOOTER *******************************/
+#main footer{
+    clear: both;
+    width: 100%;
+    /*background:#fafafa url("../img/ui/bg3.png");*/
+    background-color: #333447;
+    box-shadow:0 1px 3px rgba(0,0,0,0.08) inset,0 -1px 3px rgba(0,0,0,0.08) inset;  
+    overflow: hidden;
+    color: #ffffff;
+}
+#main footer .footer_wrap{
+    width: 100%;
+    padding:10px 0;
+}
+#main footer .footer_wrap .item{
+    width: 20%;
+    float:left;
+    text-align:center; 
+}
+#main footer .footer_wrap .item .icon{
+    margin:0 auto;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:1px solid #2fb677;   
+}
+#main footer .footer_wrap .item .icon span{
+    line-height:100px;
+    text-align:center;  
+    -webkit-transition:all .3s;
+    -moz-transition:all .3s;
+    -ms-transition:all .3s;
+    -o-transition:all .3s;
+    transition:all .3s;
+    color:#2fb677;
+}
+#main footer .footer_wrap .elements{
+    width: 100%;
+}
+#main footer .footer_wrap .item header{
+    height:100px;
+}
+#main footer .footer_wrap .item header a{
+    color: #2fb677;
+}
+#main footer .footer_wrap .item:hover .icon span,.footer_wrap .item:hover header h3 a{
+    color:#ffffff;
+}
+#main footer .copyright{
+    text-align: right;
+    width: 98%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+/************************************************ agregar al carrito *******************************/
+
+.noty_text .s_nav{
+    width: 100%;
+}
+.noty_text .s_nav .pricePrime{
+    width: 100%;
+
+}
+.noty_text .s_nav .cartData{
+    width: 100%;
+}
+.noty_text .s_nav .cartData .thumb_{
+    /*width: 20%;*/
+    /*overflow: hidden;*/
+}
+.noty_text .s_nav .cartData .info_sale{
+    /*width: 60%;*/
+    overflow: hidden;
+}
+.s_nav .cartData .info_sale .subtotal{
+    width: 100%;
+    overflow: hidden;
+    /*background: red;*/
+}
+ .s_nav .cartData .info_sale .subtotal .i_1{
+    width: 50%;
+    float: left;
+}
+ .s_nav .cartData .info_sale .subtotal .i_2{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+#cartMenu{
+    width: 100%;
+}
+
+#cartMenu .s_nav .cartData .info_sale .date{
+  margin: 0px auto; 
+  font-size: 1rem;
+  color: #777777;
+}
+#cartMenu .s_nav .cartData .info_sale .subtotal{
+    width: 50%;
+    overflow: hidden;
+}
+ #cartMenu .s_nav .cartData .info_sale .subtotal .i_1{
+    width: 50%;
+    float: left;
+}
+ #cartMenu .s_nav .cartData .info_sale .subtotal .i_2{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.addcar{
+    width: 70%;
+    float: left;
+}
+.addcar #cartMenu{
+    width: 100%;
+}
+.addcar #cartMenu .s_nav{
+    width: 50%;
+  font-size: 1rem;
+    float: left;
+}
+.addcar #cartMenu .s_nav .cartData .info_sale .date{
+  margin: 0px auto; 
+  font-size: 1rem;
+  color: #777777;
+}
+.addcar #cartMenu .s_nav .cartData .info_sale .subtotal{
+    width: 50%;
+    overflow: hidden;
+}
+ .addcar #cartMenu .s_nav .cartData .info_sale .subtotal .i_1{
+    width: 50%;
+    float: left;
+}
+ .addcar #cartMenu .s_nav .cartData .info_sale .subtotal .i_2{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.total_{
+    width: 30%;
+    float: right;
+    background: rgba(0, 0, 0, 0.1) ;
+    padding: 1%;
+}
+.total_ .subtotal{
+    width: 100%;
+    overflow: hidden;
+}
+ .total_ .subtotal .i_1{
+    width: 50%;
+    float: left;
+    font-size: 1rem;
+}
+ .total_ .subtotal .i_2{
+    width: 50%;
+    float: left;
+    font-size: 1rem;
+    text-align: right;
+}
+.total_ .pay{
+    width: 100%;
+}
+.total_ .pay .pay_total{
+    width: 100%;
+    text-align: right;
+}
+
+

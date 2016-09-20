@@ -1,0 +1,28 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Name: Company ARMedica
+	Contact: gerardo.delangel@armedica.com.mx
+	Twitter: @armedica
+	From: San Pedro Graza Garcia,Nuevo Leon, Mexico
+
+# THANKS
+
+	(First) Gerardo Del Angel Nuñez
+	Twitter: @Geradeluxer
+	From: Monterrey,Nuevo Leon, Mexico
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr, Knockout
+    Twitter boostrap
+    Codeigniter
+    
+/* SITE */
+	Last update:2016/05/12
+	Language: Spanish / English
+	Doctype:HTML5
+	IDE: Sublime Text, Notepad++, FileZilla, Photoshop

@@ -1,0 +1,6 @@
+/**************************************************** agregar imagenes al publicar **************************************/
+
+#_iP .itemImage > div.img img{  width: 100% !important; height: 100% !important; padding: 5px;}
+#_iP .itemImage  > span.delete{ cursor: pointer; position: absolute; top: 2px; right: 15px; display: none;}
+#_iP .itemImage:hover > div.img{ opacity: .7;}
+#_iP .itemImage:hover > span.delete{ display: block;}

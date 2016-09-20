@@ -1,0 +1,17 @@
+{
+	"version": "1.0",
+	"dependencia": "Gerardo Del Angel Nuñez",
+	"descripcion": "Sistema deluxer un sitio para compartir, crado por GeraDeluxer",
+	"url_produccion": "",
+
+	"database":{
+		"host": "",
+		"user": "",
+		"pass": ""
+	},
+
+	"acceso":{
+		"user": "root",
+		"pass": "root"
+	}
+}

@@ -1,0 +1,17 @@
+/*****************************************************************************
+* Aplicacion: Framework de Desarrollo
+* Modulo: Perfil de Usuario
+* Version: 1.0
+* Desarrollado por: Gera Deluxer
+* Correo: geradeluxer@gmail.com
+* Twitter: @geradeluxer
+******************************************************************************/
+#modal-nuevo-avatar #_iP > #_hob .delete{
+	visibility: hidden;
+	position: absolute;
+	right: 0;
+}
+#modal-nuevo-avatar #_iP > #_hob .delete i{display: none;}
+#modal-nuevo-avatar #_iP > #_hob:hover .delete{
+	visibility: inherit;
+}

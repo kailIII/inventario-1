@@ -1,0 +1,152 @@
+/**Medida para tablets horizontales*/
+@media screen and (max-width:1024px){
+
+}
+
+	/************************ Medidas para tables en vertical *********************************************/
+@media screen and (max-width:768px){
+
+
+}
+
+/*************  Medida smartphones ***************/
+@media screen and (max-width: 400px){
+	#main #mainContainer .content{
+    	width:100%;
+	}
+/********************************social de cabecera********************************/
+	header #logo {
+		width: 100%;
+		height: 100px;
+	}
+	header #logo ._l_i{
+		width: 30%;
+	}
+	header #logo ._l_i a img{
+	}
+	header #logo ._l_t{
+		width:70%;
+		padding: 2%;
+		z-index: 1;
+		float: right;
+	}
+	header #logo ._l_t .theme{
+		font-size: 2rem;
+    	line-height: .8;
+		margin-top: 5px;
+		margin-bottom: inherit;
+	}
+
+/************************************************************** NAV ***********************************/
+	header nav {
+	    width: 100%;
+	    float: right;
+	    display: block;
+	    height: 250px;
+	    left:0;
+	    right:0;
+	}
+	header nav > ul{
+	    width: 100%;
+	    float: left;
+	}
+	header nav > ul li {
+	 	width: 50%;
+	 	border:1px solid #fff;
+	 	display: block;
+	 	float: left;
+	}
+	header nav > ul > li a{
+		color:#fff;
+	    display:block;
+	    line-height:40px;
+	    padding:20px;
+	    position: relative;
+	}
+	 header nav > ul > li > a span {
+	    width:100%;
+	}
+	 header nav > ul > li > a span .icon {
+	    display:block;
+	    line-height:80px;
+	    margin:0px auto;
+	    background-color: rgba(255,255,255,.15);
+	    width:90px;
+	}
+	header nav > ul > li > ul li a {
+	    font-size: 12px;
+	}
+	 header nav > ul > li span {
+	 	display: none;
+	}
+	 header nav > ul > li:hover{
+	 	position: relative;
+	 	display: block;
+	 	z-index: 2;
+	 }
+	 header nav > ul li:hover > ul{
+	}
+	header > .social {
+		width: 100%;
+		float: left;
+	}	
+	header > #userheader {
+		width: 100%;
+	}
+/****************************************** CONTAINER ***************************/
+		
+	#main #mainContainer .c_l{
+	    width: 100%;
+	}
+	#main #mainContainer .content{
+		float: right !important;
+		width: 100%;
+	}
+	#main #mainContainer .content .context{
+		border-top: 20px solid #FF8C00;
+		padding-top: 10px;
+		border-radius: 50px;
+
+
+	}
+	/****************************aside************************************/
+	#main #mainContainer aside{
+    	float: left !important;
+    	width: 100%;
+    	margin-bottom: 20px;
+	}
+	#main #mainContainer aside > .asideContent{
+		width: 90%;
+    	margin: 0px auto;
+	}
+	#main #mainContainer aside > .asideContent .items{
+    	width: 100%;
+
+	}
+	#main #mainContainer aside > .asideContent #cartMenu .s_nav .cartData .info_sale{
+	  width: 90%;
+	  overflow: hidden;
+	  margin: 0px auto; 
+	  font-size: 1.5rem;
+	  color: #777777;
+	}
+
+	#main footer .footer_wrap{
+	    width: 100%;
+	    padding:10px 0;
+	}
+	#main footer .footer_wrap .item{
+	    width: 50%;
+	    float:left;
+	    text-align:center; 
+	}
+	#main footer .footer_wrap .item header{
+    height:150px;
+	}
+	#main footer .copyright{
+	    width: 100%;
+	    padding: 10px;
+	}
+
+}
+/*************** Media  **************************************/

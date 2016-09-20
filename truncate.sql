@@ -1,0 +1,13 @@
+truncate table app_img_logo;
+truncate table app_users_client;
+truncate table app_user_info;
+truncate table app_user_profile_client;
+truncate table category;
+truncate table comments;
+truncate table comments_response;
+truncate table img_post;
+truncate table img_profile;
+truncate table mypost;
+truncate table mypost_addcar;
+truncate table app_sessions;
+truncate table app_sessions;
